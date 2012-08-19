@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
   s.version     = Rack::Pygmoku::Version::STRING
   s.platform    = Gem::Platform::RUBY
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 1.5.0") if s.respond_to? :required_rubygems_version=
   s.authors     = ["Kevin Rohrbaugh"]
   s.email       = 'kevin@rohrbaugh.us'
   
@@ -21,7 +20,6 @@ directly (e.g., Heroku).
 EOF
 
   s.require_paths     = ["lib"]
-  s.rubygems_version  = '1.8.0'
   
   s.files = [
     ".document",
